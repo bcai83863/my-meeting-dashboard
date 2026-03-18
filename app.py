@@ -34,4 +34,4 @@ with col2:
         markers=True, 
         title="上半年度趨勢"
     )
-    st.plotly_chart(fig, use_container_width=True)
+    st.plotly_chart(fig, width="stretch")
